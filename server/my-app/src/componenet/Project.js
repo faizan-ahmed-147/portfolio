@@ -6,6 +6,7 @@ import Project3 from '../img/portfolio-3.png';
 import Project4 from '../img/portfolio-4.png';
 import Project5 from '../img/portfolio-5.png';
 import Project6 from '../img/portfolio-6.png';
+import Project7 from '../img/portfolio-7.png';
 
 function Project() {
 
@@ -22,6 +23,23 @@ function Project() {
             </div>
             <div className="container">
                 <div className="row">
+
+                    <div className="project__box__container">
+                        <div className="project__box pointer relative">
+                            <div className="project__box__img pointer relative">
+                                <div className="project__img__box">
+                                    <img src={Project7} alt="" className="project__img" />
+                                </div>
+                                <div className="mask__effect"></div>
+                            </div>
+                            <div className="project__meta absolute">
+                                <h5 className="project__text">Development</h5>
+                                <h4 className="project__text">E Commerce</h4>
+                                <a href="https://e-commerce-bay-omega.vercel.app/" target="_blank" className="project__btn">View Project</a>
+                                <a href="https://github.com/faizan-ahmed-147/e-commerce" target="_blank"className="project__btn">View Code</a>
+                            </div>
+                        </div>
+                    </div>
 
                     <div className="project__box__container">
                         <div className="project__box pointer relative">
