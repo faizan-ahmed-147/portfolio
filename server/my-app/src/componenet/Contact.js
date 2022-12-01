@@ -23,7 +23,7 @@ function Contact() {
     const postData = async (e)=>{
     e.preventDefault();
     const {name, email, subject, message} = user;
-    const res = await fetch("https://portfolio-fa.herokuapp.com/contact", {
+    const res = await fetch("/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
